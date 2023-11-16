@@ -10,8 +10,8 @@ git add . ->
 
 git commit -m "新增環境" -> 
 
-git branch dev //避免檔案蓋過master(main) ->
+git branch dev 避免檔案蓋過master(main) ->
 
 git remote add origin https://github.com/0oWeiYuo0/gitHubFlowRule.git 開啟 gitHub 專案後會有 push 的指令，複製即可 ->
 
-git push dev 若有創建分支，記得上傳 // dev 為名稱
+git push origin dev 若有創建分支，記得上傳 // dev 為名稱
