@@ -1,29 +1,26 @@
-# gitHubFlow
+創建一個資料夾
 
-This template should help get you started developing with Vue 3 in Vite.
+mkdir node    // node 為資料夾名稱
 
-## Recommended IDE Setup
+git init 初始化
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+創建一個 .gitignore 因為有些檔案是不準備進去版本控制的
 
-## Customize configuration
+git add . -> 
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+git commit -m "新增環境" -> 
 
-## Project Setup
+git branch dev 避免檔案蓋過master(main) ->
 
-```sh
-npm install
-```
+git remote add origin https://github.com/0oWeiYuo0/gitHubFlowRule.git 開啟 gitHub 專案後會有 push 的指令，複製即可 ->
 
-### Compile and Hot-Reload for Development
+git push origin dev 若有創建分支，記得上傳 // dev 為名稱
 
-```sh
-npm run dev
-```
+git checkout "dev" 切換至分支 // dev 為分支名稱
 
-### Compile and Minify for Production
+=========================================
 
-```sh
-npm run build
-```
+另個開發人員
+
+git clone "#################"  複製檔案
+
