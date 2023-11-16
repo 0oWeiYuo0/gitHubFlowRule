@@ -1,29 +1,9 @@
-# gitHubFlow
+創建一個資料夾
 
-This template should help get you started developing with Vue 3 in Vite.
+mkdir node    // node 為資料夾名稱
 
-## Recommended IDE Setup
+git init 初始化
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+創建一個 .gitignore 因為有些檔案是不準備進去版本控制的
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+git add . -> git commit -m "新增環境" -> git branch dev //避免檔案蓋過master(main)
